@@ -1064,7 +1064,7 @@ class Gnomecast(object):
   def select_cast(self, cast):
     self.cast = cast
     if cast:
-#      cast.media_controller.app_id = 'FF0F6B72'
+      cast.media_controller.app_id = '097FB573'
       self.last_known_volume_level = cast.media_controller.status.volume_level
       self.volume_button.set_value(cast.media_controller.status.volume_level)
     self.last_known_player_state = None
